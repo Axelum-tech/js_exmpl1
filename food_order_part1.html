@@ -1,0 +1,22 @@
+<script>
+    foodName        = "Salad"           // String
+    foodPriceValue  = 15.00       // Number
+    foodPriceUnits  ="MDL"       // String
+    foodDelivery    =50
+
+
+    clientQuantity  = prompt("MENU: "+foodName+"\n"+" How many do you want? " )
+
+    
+
+    totalCost= foodPriceValue * clientQuantity + foodDelivery
+
+    alert(
+        "You've ordered "+clientQuantity+" pieces\n "+
+        "Your bill is "+totalCost+foodPriceUnits+
+        "\nDelivery: "+foodDelivery+" "+foodPriceUnits+" Included")
+
+
+
+
+</script>
